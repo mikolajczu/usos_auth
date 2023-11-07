@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["mikolajczu"]
   spec.email = ["mikeyczu@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Gem for authenticating users via the USOS API"
+  spec.description = "A Ruby gem to simplify USOS API authentication."
+  spec.homepage = "https://github.com/mikolajczu/usos_auth"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "oauth", "~> 0.5.1"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
